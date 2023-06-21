@@ -1,0 +1,85 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* remove width and height */
+}
+
+.App > * {
+  margin: 10px;
+}
+
+.result {
+  display: flex;
+  flex-direction: column; /* change this line */
+  align-items: center;
+  justify-content: space-between;
+  width: 500px;
+  max-width: 80%;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.result > div {
+  display: flex;
+  flex-direction: column;
+}
+
+.result > div > * {
+  margin: 5px;
+}
+
+.result > div > h2 {
+  color: orange;
+}
+
+.circle {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+/* add this code */
+.header {
+  margin-bottom:0; /* remove margin */
+  text-align:left; /* add this */
+}
+
+.header h1 {
+  margin:0; /* remove margin */
+}
+
+.form {
+  display:flex; /* add this */
+  flex-direction:column; /* add this */
+  margin-top:0; /* add this */
+  text-align:left; /* add this */
+}
+
+.box {
+  display:flex; /* add this */
+  flex-direction:column; /* add this */
+  justify-content:center; /* add this */
+  width:200px; /* reduce width */
+  height:200px; /* reduce height */
+  background-color:white; /* add this */
+  box-shadow:0 4px 8px rgba(0,0,0,0.1); /* add this */
+  border-radius:10px; /* add this */
+  margin-top:40px; /* add some margin */
+  /* remove align-items:center */
+}
+
+/* add this code */
+input {
+  width:100%; /* add this */
+  padding:5px; /* reduce padding */
+  margin:0; /* remove margin */
+  box-sizing:border-box; /* add this */
+}
