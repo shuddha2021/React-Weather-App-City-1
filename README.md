@@ -2,6 +2,12 @@
 
 This is a simple weather app built with React and TypeScript. It uses the OpenWeatherMap API to fetch the current weather data for any city in the world. It also displays a colored circle that changes according to the weather description.
 
+<img width="1458" alt="Screenshot 2023-06-21 at 9 59 42 AM" src="https://github.com/shuddha2021/React-Weather-App-City-1/assets/81951239/855f3eaa-e2c2-46b6-b9ca-a0e918d7553e">
+
+<img width="1458" alt="Screenshot 2023-06-21 at 10 00 39 AM" src="https://github.com/shuddha2021/React-Weather-App-City-1/assets/81951239/5e45161c-7c77-458b-ad91-3220444ee04b">
+
+
+
 ## Features
 
 - Responsive design that adapts to different screen sizes
@@ -36,6 +42,4 @@ This app is built with the following technologies:
 - React Autosuggest (https://react-autosuggest.js.org/)
 - Vercel (https://vercel.com/)
 
-## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
